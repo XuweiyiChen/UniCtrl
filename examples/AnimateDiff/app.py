@@ -699,10 +699,10 @@ def ui():
             )
 
         gr.Examples(
-            fn=controller.animate,
+            fn=controller.animate_ctrl,
             examples=examples,
             inputs=inputs,
-            outputs=[orig_video, json_config],
+            outputs=[ctrl_video, json_config],
             cache_examples=True,
         )
 
