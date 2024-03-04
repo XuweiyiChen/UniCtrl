@@ -1,0 +1,4 @@
+filter_params:
+  method: 'gaussian'
+  d_s: 0.25
+  d_t: 0.25

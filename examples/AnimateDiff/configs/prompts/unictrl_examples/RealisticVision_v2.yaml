@@ -1,0 +1,35 @@
+RealisticVision:
+  inference_config: "configs/inference/inference-v2.yaml"
+  motion_module:
+    - "models/Motion_Module/mm_sd_v15_v2.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v20Novae.safetensors"
+  lora_model_path: ""
+
+  seed:           [9620, 913, 6840, 1334]
+  steps:          25
+  guidance_scale: 7.5
+
+  filter_params:
+    method: 'butterworth'
+    n: 4
+    d_s: 0.25
+    d_t: 0.25
+
+  # filter_params:
+  #   method: 'gaussian'
+  #   d_s: 0.25
+  #   d_t: 0.25
+
+  prompt:
+    - "A panda cooking in the kitchen"
+    - "A cat wearing sunglasses and working as a lifeguard at a pool."
+    - "A confused panda in calculus class"
+    - "A robot DJ is playing the turntable, in heavy raining futuristic tokyo rooftop cyberpunk night, sci-fi, fantasy"
+
+  n_prompt:
+    - ""
+    - ""
+    - ""
+    - ""
+

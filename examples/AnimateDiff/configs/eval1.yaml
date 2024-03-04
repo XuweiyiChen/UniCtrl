@@ -1,0 +1,5 @@
+filter_params:
+  method: 'butterworth'
+  n: 4
+  d_s: 0.25
+  d_t: 0.25

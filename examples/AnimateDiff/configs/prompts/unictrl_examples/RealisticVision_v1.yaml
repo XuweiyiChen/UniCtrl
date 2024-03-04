@@ -1,0 +1,30 @@
+RealisticVision:
+  motion_module:
+    - "models/Motion_Module/mm_sd_v14.ckpt"
+
+  dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v20Novae.safetensors"
+  lora_model_path: ""
+
+  seed:           [442, 123]
+  steps:          25
+  guidance_scale: 7.5
+
+
+  filter_params:
+    method: 'butterworth'
+    n: 4
+    d_s: 0.25
+    d_t: 0.25
+
+  # filter_params:
+  #   method: 'gaussian'
+  #   d_s: 0.25
+  #   d_t: 0.25
+  
+  prompt:
+    - "A cat wearing sunglasses and working as a lifeguard at a pool."
+    - "A panda cooking in the kitchen"
+
+  n_prompt:
+    - "worst quality, low quality, nsfw, logo"
+    - ""
