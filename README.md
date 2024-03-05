@@ -1,5 +1,7 @@
 # UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control
 
+### [Project page](https://unified-attention-control.github.io/) | Paper | Demo
+
 ## 🔥 Updates
 
 ## 🔨 Quick Start
