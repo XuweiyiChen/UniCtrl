@@ -75,8 +75,24 @@ python app.py
 ```
 Alternatively, you can try the online demo hosted on Hugging Face: [[demo link]](https://huggingface.co/).
 
-## :white_heart: Acknowledgement
+## Citation :fountain_pen: 
+
+   If you find our repo useful for your research, please consider citing our paper:
+
+   ```bibtex
+    @misc{chen2024unictrl,
+        title={UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control}, 
+        author={Xuweiyi Chen and Tian Xia and Sihan Xu},
+        year={2024},
+        eprint={2403.02332},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
+   ```
+
+## Acknowledgement :white_heart:
 
 This project is distributed under the MIT License. See `LICENSE` for more information.
 
 The example code is built upon [AnimateDiff](https://github.com/guoyww/AnimateDiff) and [FreeInit](https://github.com/TianxingWu/FreeInit). Thanks to the team for their impressive work!
+
