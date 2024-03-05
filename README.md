@@ -1,5 +1,10 @@
 # UniCtrl
 
+[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2403.02332)
+[![Project Page](https://img.shields.io/badge/Project-Website-5B7493?logo=googlechrome&logoColor=5B7493)]([https://tianxingwu.github.io/pages/FreeInit/](https://unified-attention-control.github.io/))
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-%20Hugging%20Face-ED7D31)](https://huggingface.co/spaces/Xuweiyi/UniCtrl)
+
+
 This repository is the implementation of
 
 ### UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control
