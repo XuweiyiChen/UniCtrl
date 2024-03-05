@@ -7,7 +7,7 @@ Xuweiyi Chen*,  Tian Xia*,  Sihan XU**
 PixAI.art, University of Michigan  
 (* Equal contribution,    ** Correspondence)
 
-### [Project page](https://unified-attention-control.github.io/) | Paper | Demo
+### [Project page](https://unified-attention-control.github.io/) | [Paper(https://arxiv.org/abs/2403.02332) | Demo
 
 ## 🔥 Updates
 
