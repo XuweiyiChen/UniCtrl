@@ -14,8 +14,29 @@ This repository is the implementation of
 - <sup>*</sup>*Equal contribution*, <sup>**</sup>*Correspondence*
 
 ### [Project page](https://unified-attention-control.github.io/) | [Paper](https://arxiv.org/abs/2403.02332) | Demo
+<table>
+  <tr>
+    <td><img src="./assets/girl/orig_sample.gif" alt="Original" style="width:100%"></td>
+    <td><img src="./assets/girl/ctrl_sample.gif" alt="UniCtrl" style="width:100%"></td>
+  </tr>
+  <tr>
+    <td align="center">Original</td>
+    <td align="center">UniCtrl</td>
+  </tr>
+</table>
 
-## 🔥 Updates
+<table>
+  <tr>
+    <td><img src="./assets/mt/orig_sample.gif" alt="Original" style="width:100%"></td>
+    <td><img src="./assets/mt/ctrl_sample.gif" alt="UniCtrl" style="width:100%"></td>
+  </tr>
+  <tr>
+    <td align="center">Original</td>
+    <td align="center">UniCtrl</td>
+  </tr>
+</table>
+
+## Updates🔥 
 
 ## 🔨 Quick Start
 
