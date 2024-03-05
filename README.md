@@ -2,7 +2,7 @@
 
 This repository is the implementation of
 
-UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control  
+**UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control**  
 Xuweiyi Chen*,  Tian Xia*,  Sihan XU**  
 PixAI.art, University of Michigan  
 (* Equal contribution,    ** Correspondence)
