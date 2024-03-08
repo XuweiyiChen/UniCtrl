@@ -64,7 +64,16 @@ conda activate animatediff_pt2
 
 ### 3. Download Checkpoints
 
-Please refer to the [official repo](https://github.com/guoyww/AnimateDiff) of AnimateDiff. The setup guide is listed [here](https://github.com/guoyww/AnimateDiff/blob/main/__assets__/docs/animatediff.md).
+Please refer to the [official repo](https://github.com/guoyww/AnimateDiff) of AnimateDiff for the full setup guide. The setup guide is listed [here](https://github.com/guoyww/AnimateDiff/blob/main/__assets__/docs/animatediff.md).
+
+Quickstart guide
+```
+git lfs install
+git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 models/StableDiffusion/
+
+bash download_bashscripts/0-MotionModule.sh
+bash download_bashscripts/5-RealisticVision.sh
+```
 
 ### 🤗 Gradio Demo
 
