@@ -15,6 +15,7 @@ samples_eval_unified_attention_control/
 *.ckpt
 
 models/*
+!models/Put checkpoints here.txt
 !models/StableDiffusion/
 models/StableDiffusion/*
 !models/StableDiffusion/*.txt
