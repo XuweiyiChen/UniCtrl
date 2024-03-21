@@ -404,8 +404,18 @@ class AnimationPipeline(DiffusionPipeline):
         return_dict: bool = True,
         callback: Optional[Callable[[int, int, torch.FloatTensor], None]] = None,
         callback_steps: Optional[int] = 1,
+        use_fp16: bool = False,
         **kwargs,
     ):
+        if use_fp16:
+            print("Warning: using half percision for inferencing!")
+            self.vae.to(dtype=torch.float16)
+            self.unet.to(dtype=torch.float16)
+            self.text_encoder.to(dtype=torch.float16)
+        else:
+            self.vae.to(dtype=torch.float)
+            self.unet.to(dtype=torch.float)
+            self.text_encoder.to(dtype=torch.float)
         # Default height and width to unet
         height = height or self.unet.config.sample_size * self.vae_scale_factor
         width = width or self.unet.config.sample_size * self.vae_scale_factor
@@ -566,6 +576,10 @@ class AnimationCtrlPipeline(AnimationPipeline):
             self.vae.to(dtype=torch.float16)
             self.unet.to(dtype=torch.float16)
             self.text_encoder.to(dtype=torch.float16)
+        else:
+            self.vae.to(dtype=torch.float)
+            self.unet.to(dtype=torch.float)
+            self.text_encoder.to(dtype=torch.float)
         # Default height and width to unet
         height = height or self.unet.config.sample_size * self.vae_scale_factor
         width = width or self.unet.config.sample_size * self.vae_scale_factor

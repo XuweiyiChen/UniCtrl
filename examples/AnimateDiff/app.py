@@ -257,7 +257,7 @@ class AnimateController:
         self.savedir = os.path.join(self.basedir, "samples")
         os.makedirs(self.savedir, exist_ok=True)
 
-        self.base_model_list = [None]
+        self.base_model_list = ["None"]
         self.motion_module_list = []
         self.selected_base_model = None
         self.selected_motion_module = None
@@ -289,7 +289,7 @@ class AnimateController:
 
         self.freq_filter = None
 
-        self.update_base_model(self.base_model_list[-2])
+        self.update_base_model(self.base_model_list[0])
         self.update_motion_module(self.motion_module_list[0])
 
     def refresh_motion_module(self):
@@ -411,7 +411,7 @@ class AnimateController:
             width=width_slider,
             height=height_slider,
             video_length=16,
-            use_fp16=True if "use_fp16" in speed_up_options else False,
+            use_fp16=True if speed_up_options and "use_fp16" in speed_up_options else False,
             generator=generator,
         )
 
@@ -428,7 +428,7 @@ class AnimateController:
             "seed": seed,
             "base_model": base_model_dropdown,
             "motion_module": motion_module_dropdown,
-            "use_fp16": True if "use_fp16" in speed_up_options else False,
+            "use_fp16": True if speed_up_options and "use_fp16" in speed_up_options else False,
         }
 
         del attn_controller
@@ -449,8 +449,6 @@ class AnimateController:
         width_slider,
         height_slider,
         seed_textbox,
-        # freeinit params
-        filter_type_dropdown,
         speed_up_options,
     ):
         # set global seed
@@ -519,7 +517,6 @@ class AnimateController:
             "seed": seed,
             "base_model": base_model_dropdown,
             "motion_module": motion_module_dropdown,
-            "filter_type": filter_type_dropdown,
             "use_fp16": (
                 True if speed_up_options and "use_fp16" in speed_up_options else False
             ),
@@ -609,7 +606,7 @@ def ui():
                     base_model_dropdown = gr.Dropdown(
                         label="Base DreamBooth Model",
                         choices=controller.base_model_list,
-                        value=controller.base_model_list[-2],
+                        value=controller.base_model_list[0],
                         interactive=True,
                         info="Select personalized text-to-image model from community",
                     )
