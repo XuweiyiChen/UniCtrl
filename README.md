@@ -9,8 +9,8 @@ This repository is the implementation of
 
 ### UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control
 
-- **Authors**: [Xuweiyi Chen](https://xuweiyichen.github.io/)<sup>\*</sup>, Tian Xia<sup>\*</sup>, [Sihan Xu](https://sihanxu.github.io/)<sup>**</sup>
-- **Affiliation**: PixAI.art, University of Michigan
+- **Authors**: Tian Xia<sup>\*</sup>, [Xuweiyi Chen](https://xuweiyichen.github.io/)<sup>\*</sup>, [Sihan Xu](https://sihanxu.github.io/)<sup>**</sup>
+- **Affiliation**: University of Michigan, University of Virginia, PixAI.art, 
 - <sup>*</sup>*Equal contribution*, <sup>**</sup>*Correspondence*
 
 ### [Project page](https://unified-attention-control.github.io/) | [Paper](https://arxiv.org/abs/2403.02332) | Demo
