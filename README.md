@@ -1,4 +1,4 @@
-# UniCtrl
+# [TMLR 2024] UniCtrl
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2403.02332)
 [![Project Page](https://img.shields.io/badge/Project-Website-5B7493?logo=googlechrome&logoColor=5B7493)](https://unified-attention-control.github.io/)
