@@ -1,4 +1,4 @@
-# [TMLR 2024] UniCtrl
+# UniCtrl
 
 [![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2403.02332)
 [![Project Page](https://img.shields.io/badge/Project-Website-5B7493?logo=googlechrome&logoColor=5B7493)](https://unified-attention-control.github.io/)
@@ -7,7 +7,7 @@
 
 This repository is the implementation of
 
-### UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control
+### [TMLR 2024] UniCtrl: Improving the Spatiotemporal Consistency of Text-to-Video Diffusion Models via Training-Free Unified Attention Control
 
 - **Authors**: [Tian Xia](https://tianx-ia.github.io/)<sup>\*</sup>, [Xuweiyi Chen](https://xuweiyichen.github.io/)<sup>\*</sup>, [Sihan Xu](https://sihanxu.github.io/)<sup>**</sup>
 - **Affiliation**: University of Michigan, University of Virginia, PixAI.art, 
